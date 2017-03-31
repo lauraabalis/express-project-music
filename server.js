@@ -20,6 +20,18 @@ app.post('/music', function(req, res) {
   res.send(music);
 });
 
+app.put("/music/:id", function(req, res) {
+  var musicIndex = req.params.id;
+  music[musicIndex] = req.body;
+  res.send(music);
+});
+
+app.delete("/music/:id", function(req, res) {
+  var musicIndex = req.params.id;
+  music.splice(musicIndex, 1);
+  res.send(music);
+});
+
 app.listen(8000, function() {
   console.log("Heard it on 8000");
 });
