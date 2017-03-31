@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "artist": "Prince",
+    "songTitle": "Purple Rain",
+    "year": "1984"
+  },
+  {
+    "id": 1,
+    "artist": "Michael Jackson",
+    "songTitle": "Rock with You",
+    "year": "1979"
+  },
+  {
+    "id": 2,
+    "artist": "Guns N' Roses",
+    "songTitle": "Welcome to the Jungle",
+    "year": "1987"
+  },
+  {
+    "id": 3,
+    "artist": "M.C. Hammer",
+    "songTitle": "Can't Touch This",
+    "year": "1990"
+  },
+  {
+    "id": 4,
+    "artist": "2Pac",
+    "songTitle": "Ambitionz az a Ridah",
+    "year": "1996"
+  }
+]
